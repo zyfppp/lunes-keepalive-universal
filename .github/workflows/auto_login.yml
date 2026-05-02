@@ -2,7 +2,7 @@ name: Lunes Host Auto Keepalive
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Daily at 02:00 UTC
+    - cron: '6 4 */3 * *'  # Daily at 02:00 UTC
   workflow_dispatch:      # Manual trigger
 
 jobs:
